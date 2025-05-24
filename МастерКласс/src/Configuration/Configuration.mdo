@@ -38,4 +38,16 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Покупка</subsystems>
+  <subsystems>Subsystem.Продажа</subsystems>
+  <subsystems>Subsystem.РасчетыКА</subsystems>
+  <catalogs>Catalog.Договор</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Контрагент</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Организация</catalogs>
+  <documents>Document.ПокупкаТоваров</documents>
+  <documents>Document.ПоступлениеДС</documents>
+  <documents>Document.РеализацияТоваров</documents>
+  <documents>Document.СписаниеДС</documents>
 </mdclass:Configuration>

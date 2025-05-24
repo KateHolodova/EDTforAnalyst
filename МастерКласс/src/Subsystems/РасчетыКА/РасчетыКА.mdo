@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="207fef89-f984-4083-a60f-68a7e7a68410">
+  <name>РасчетыКА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты КА</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Контрагент</content>
+  <content>Catalog.Договор</content>
+  <content>Document.ПоступлениеДС</content>
+  <content>Document.СписаниеДС</content>
+</mdclass:Subsystem>

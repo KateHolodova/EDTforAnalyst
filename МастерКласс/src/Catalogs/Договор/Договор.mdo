@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c949b834-36f1-436e-89e3-3a9ad34c0d50">
+  <producedTypes>
+    <objectType typeId="61863e85-c0e6-4af5-a1bd-15c8fc4a7f3b" valueTypeId="a545d726-1716-4f7d-82e8-aa76d8bb0125"/>
+    <refType typeId="99ea713f-cb1c-4b2c-a3b5-0c4c1313db8b" valueTypeId="939d16e3-f006-4f2a-8ac9-9f077e8257d8"/>
+    <selectionType typeId="3c3a5c16-342f-44a9-aa70-6ec8bc905e89" valueTypeId="91b5c021-ffb8-4ce8-91ff-e2991283619e"/>
+    <listType typeId="3598d7b0-ce5b-4c76-a837-41938d234db3" valueTypeId="13e9503c-f615-47f9-b5b1-ea47913f17bb"/>
+    <managerType typeId="0a1e3418-a195-482e-a7ec-4c999c9b3fc8" valueTypeId="14191ebd-cdc9-4f4c-999b-7b4ca8f95e05"/>
+  </producedTypes>
+  <name>Договор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договор</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Договор.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Договор.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагент</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="acacf09d-7e28-49aa-ab9b-7a93f90cc3a7">
+    <name>ДатаДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата договора</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
