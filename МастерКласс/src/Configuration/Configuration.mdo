@@ -41,6 +41,7 @@
   <subsystems>Subsystem.Покупка</subsystems>
   <subsystems>Subsystem.Продажа</subsystems>
   <subsystems>Subsystem.РасчетыКА</subsystems>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <catalogs>Catalog.Договор</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.Контрагент</catalogs>
