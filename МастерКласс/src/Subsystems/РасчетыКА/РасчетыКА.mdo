@@ -11,4 +11,5 @@
   <content>Catalog.Договор</content>
   <content>Document.ПоступлениеДС</content>
   <content>Document.СписаниеДС</content>
+  <content>Role.Сотрудник</content>
 </mdclass:Subsystem>
